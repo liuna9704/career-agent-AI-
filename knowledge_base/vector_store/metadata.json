@@ -1,0 +1,258 @@
+{
+  "mode": "local-hash-v1",
+  "source_fingerprint": "ccfd810b0b8faac7c8ec519858c3191e1ad6e0754ce9e4914da3816389c683d5",
+  "chunks": [
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "岗位介绍",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency.md",
+      "content": "岗位：AI算法工程师\n能力维度：岗位介绍\n负责数据处理、算法建模、实验评估、模型部署与持续优化，需要将数学和算法能力转化为可验证的业务效果。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "Python与数据处理",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency.md",
+      "content": "岗位：AI算法工程师\n能力维度：Python与数据处理\n考察目标：Python基础、NumPy、Pandas、数据质量和代码工程化。\n初级表现：能完成数据读取、清洗和基础分析。\n中级表现：能处理大规模数据、性能问题与可复现实验。\n高级表现：能建设高质量特征与数据流水线。\n追问方向：内存优化、缺失值、异常值、数据泄漏。\n优秀回答特征：说明数据规模、质量规则和验证方法。\n常见不足：忽略数据分布与泄漏风险。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "机器学习",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency.md",
+      "content": "岗位：AI算法工程师\n能力维度：机器学习\n考察目标：特征工程、模型选择、训练、评估与过拟合处理。\n初级表现：会使用常见分类回归模型。\n中级表现：能根据场景选择模型和指标并系统调参。\n高级表现：能处理样本偏差、分布漂移和复杂业务约束。\n追问方向：LightGBM选型、交叉验证、AUC与F1、类别不平衡。\n优秀回答特征：有对照实验、消融分析和线上指标。\n常见不足：只报告准确率，缺少基线与误差分析。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "深度学习",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency.md",
+      "content": "岗位：AI算法工程师\n能力维度：深度学习\n考察目标：网络结构、损失函数、优化器、训练稳定性与框架使用。\n初级表现：能使用PyTorch或TensorFlow训练基础模型。\n中级表现：理解反向传播、正则化和常用网络结构。\n高级表现：能诊断训练问题并针对任务改造模型。\n追问方向：梯度消失、学习率、Transformer、模型压缩。\n优秀回答特征：解释结构选择、训练曲线和资源成本。\n常见不足：堆叠模型而不分析收益来源。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "数学基础",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency.md",
+      "content": "岗位：AI算法工程师\n能力维度：数学基础\n考察目标：概率统计、线性代数、微积分与优化理论。\n初级表现：理解向量矩阵、概率和导数基础。\n中级表现：能推导常用损失与优化方法。\n高级表现：能将数学假设用于模型诊断和创新。\n追问方向：最大似然、偏差方差、梯度下降、正则化。\n优秀回答特征：数学表达与算法实践相互印证。\n常见不足：只记公式，无法解释假设。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "模型工程",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency.md",
+      "content": "岗位：AI算法工程师\n能力维度：模型工程\n考察目标：服务化、推理优化、监控、版本管理与MLOps。\n初级表现：能导出并部署模型接口。\n中级表现：能优化延迟、吞吐并监控数据漂移。\n高级表现：能建设自动训练、灰度发布与回滚体系。\n追问方向：批处理、量化、ONNX、特征一致性、漂移告警。\n优秀回答特征：给出P95延迟、吞吐、资源成本和稳定性数据。\n常见不足：只关注离线精度，不理解线上链路。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "项目经验",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency.md",
+      "content": "岗位：AI算法工程师\n能力维度：项目经验\n考察目标：问题定义、个人贡献、技术决策、实验效果和业务落地。\n初级表现：参与数据或模型子任务。\n中级表现：独立完成建模并推动上线。\n高级表现：主导复杂算法项目并持续产生业务价值。\n追问方向：数据量、基线、指标提升、冷启动、失败实验。\n优秀回答特征：职责明确，指标可信，能说明限制与迭代。\n常见不足：项目描述宏大但缺少个人工作细节。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "大模型应用能力",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency_model.md",
+      "content": "岗位：AI算法工程师\n能力维度：大模型应用能力\n- 能力描述：理解LLM调用、Prompt、RAG与Agent工作流，能完成可控的大模型应用落地。\n- 评价指标：理解LLM调用流程；掌握Prompt设计；理解RAG架构；能够构建Agent；具备效果评估意识。\n- 面试验证问题：如何设计LLM调用链路；RAG如何切分与召回；Agent如何保存状态并决策；如何降低幻觉。\n- 评分标准：60-70能调用模型并编写基础Prompt；71-85能独立实现RAG或Agent并处理异常；86-100能完成评估、可观测性和复杂工作流优化。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "算法与数学基础",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency_model.md",
+      "content": "岗位：AI算法工程师\n能力维度：算法与数学基础\n- 能力描述：掌握机器学习、深度学习、概率统计与优化基础，能够解释模型原理。\n- 评价指标：理解常见算法；掌握损失函数与优化；能够分析偏差方差；能够选择评价指标。\n- 面试验证问题：如何选择模型与指标；过拟合如何处理；梯度问题如何定位；实验如何控制变量。\n- 评分标准：60-70能正确使用常见算法；71-85能解释原理并完成实验；86-100能针对业务约束改进模型与训练策略。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "数据与模型工程能力",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency_model.md",
+      "content": "岗位：AI算法工程师\n能力维度：数据与模型工程能力\n- 能力描述：能够完成数据治理、训练、推理、部署和服务化的工程闭环。\n- 评价指标：掌握数据清洗；理解训练流水线；具备推理部署能力；关注性能与稳定性。\n- 面试验证问题：数据质量如何保障；模型如何部署；推理延迟如何优化；版本如何回滚。\n- 评分标准：60-70完成基础训练部署；71-85具备自动化流水线和性能优化实践；86-100能治理大规模数据与高可用模型服务。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "项目实践能力",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency_model.md",
+      "content": "岗位：AI算法工程师\n能力维度：项目实践能力\n- 能力描述：能够把算法或大模型能力转化为真实业务价值，并形成可验证结果。\n- 评价指标：职责清晰；方案与问题匹配；有量化结果；能够复盘不足。\n- 面试验证问题：个人贡献是什么；为何选择该方案；效果提升多少；失败方案如何复盘。\n- 评分标准：60-70参与项目并完成任务；71-85主导模块且有量化结果；86-100主导复杂项目并形成可复用方法。"
+    },
+    {
+      "job_key": "ai_engineer",
+      "job": "AI算法工程师",
+      "ability": "问题解决能力",
+      "source": "knowledge_base\\source_documents\\ai_engineer\\competency_model.md",
+      "content": "岗位：AI算法工程师\n能力维度：问题解决能力\n- 能力描述：面对不确定问题能够定位根因、形成假设、验证方案并沉淀经验。\n- 评价指标：问题拆解合理；证据充分；方案有权衡；结果可验证。\n- 面试验证问题：描述一次线上或效果异常；如何缩小范围；如何验证根因；如何防止复发。\n- 评分标准：60-70能解决明确问题；71-85能独立定位复杂问题；86-100能建设系统性诊断和预防机制。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "岗位介绍",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency.md",
+      "content": "岗位：Java开发工程师\n能力维度：岗位介绍\n负责服务端业务开发、接口与数据模型设计、性能优化和线上稳定性保障。候选人需要兼顾语言基础、主流框架、数据存储、分布式架构与工程交付。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "Java基础",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency.md",
+      "content": "岗位：Java开发工程师\n能力维度：Java基础\n考察目标：集合框架、并发编程、JVM、异常与面向对象设计。\n初级表现：能使用常用集合和线程池，理解基本语法。\n中级表现：能解释HashMap、线程池参数、锁和JVM内存区域，并定位常见问题。\n高级表现：能结合源码、性能数据和业务约束完成并发与JVM调优。\n追问方向：HashMap扩容、volatile与synchronized、GC选择、内存泄漏排查。\n优秀回答特征：原理准确，能给出项目案例、量化指标和方案权衡。\n常见不足：只会背概念，无法说明适用边界。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "Spring Boot",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency.md",
+      "content": "岗位：Java开发工程师\n能力维度：Spring Boot\n考察目标：IOC、AOP、自动配置、事务、接口设计和工程组织。\n初级表现：能创建基础接口并使用常用注解。\n中级表现：理解Bean生命周期、事务传播和自动配置，能处理常见工程问题。\n高级表现：能扩展框架、治理复杂依赖并设计可维护的服务架构。\n追问方向：循环依赖、事务失效、Starter机制、异常处理和接口幂等。\n优秀回答特征：说明框架选型原因、配置机制和真实故障案例。\n常见不足：停留在注解使用层面。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "MySQL",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency.md",
+      "content": "岗位：Java开发工程师\n能力维度：MySQL\n考察目标：索引、事务、锁、执行计划、SQL优化与高可用。\n初级表现：会编写SQL并使用基础索引。\n中级表现：能分析执行计划、联合索引和事务隔离问题。\n高级表现：能处理大表、热点写入、主从延迟和复杂性能瓶颈。\n追问方向：最左匹配、覆盖索引、MVCC、死锁排查、分库分表。\n优秀回答特征：以执行计划和压测数据验证优化结果。\n常见不足：认为增加索引一定能提升性能。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "Redis",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency.md",
+      "content": "岗位：Java开发工程师\n能力维度：Redis\n考察目标：数据结构、缓存策略、缓存一致性、分布式锁、持久化与高可用。\n初级表现：会使用String、Hash、List、Set并设置过期时间。\n中级表现：能解决缓存穿透、击穿、雪崩，理解Cache Aside缓存策略和数据库一致性。\n高级表现：能设计高并发热点缓存，分析主从、哨兵、集群及分布式锁的正确性边界。\n追问方向：延迟双删、订阅binlog、缓存一致性、Redisson看门狗、分布式锁误删与续期、热点Key治理。\n优秀回答特征：能说明更新数据库与删除缓存的顺序、失败补偿和一致性取舍。\n常见不足：用SETNX实现锁却忽略唯一标识、原子释放、超时和续期。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "分布式系统",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency.md",
+      "content": "岗位：Java开发工程师\n能力维度：分布式系统\n考察目标：服务治理、一致性、消息队列、容错、限流与降级。\n初级表现：理解微服务和RPC基本概念。\n中级表现：能设计幂等、重试、熔断和最终一致性方案。\n高级表现：能在复杂故障和容量约束下完成架构取舍与稳定性治理。\n追问方向：CAP、事务消息、重复消费、雪崩、服务降级和全链路压测。\n优秀回答特征：明确故障模型、一致性级别和恢复策略。\n常见不足：只描述组件，不说明异常路径。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "工程实践",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency.md",
+      "content": "岗位：Java开发工程师\n能力维度：工程实践\n考察目标：Git、测试、日志、监控、容器化、发布与问题排查。\n初级表现：能按规范提交代码并完成基本部署。\n中级表现：具备单元测试、日志分析、Docker和CI/CD实践。\n高级表现：能建设可观测性、灰度发布、容量规划和故障复盘体系。\n追问方向：线上故障定位、指标设计、回滚、压测和代码质量保障。\n优秀回答特征：完整描述发现、定位、解决、验证和复盘闭环。\n常见不足：没有量化结果或只依赖人工测试。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "Java语言与并发能力",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency_model.md",
+      "content": "岗位：Java开发工程师\n能力维度：Java语言与并发能力\n- 能力描述：掌握Java语言、集合、JVM和并发编程，能解释原理与适用边界。\n- 评价指标：理解集合实现；掌握线程池与锁；理解JVM内存；具备故障定位经验。\n- 面试验证问题：HashMap如何扩容；线程池参数如何设置；如何定位内存泄漏；锁如何选型。\n- 评分标准：60-70会正确使用；71-85能解释原理并解决常见问题；86-100能结合源码和数据完成调优。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "后端框架与接口能力",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency_model.md",
+      "content": "岗位：Java开发工程师\n能力维度：后端框架与接口能力\n- 能力描述：能够使用Spring Boot构建可维护服务，设计可靠接口、事务与异常处理。\n- 评价指标：理解IOC/AOP；掌握事务；接口契约清晰；具备幂等与异常治理能力。\n- 面试验证问题：事务为何失效；接口如何幂等；异常如何分层；自动配置如何工作。\n- 评分标准：60-70能完成常规接口；71-85能处理事务和工程问题；86-100能扩展框架并治理复杂服务。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "数据与缓存能力",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency_model.md",
+      "content": "岗位：Java开发工程师\n能力维度：数据与缓存能力\n- 能力描述：掌握MySQL与Redis，能够处理索引、事务、缓存一致性和热点问题。\n- 评价指标：会分析执行计划；理解事务与锁；掌握缓存策略；能够设计一致性补偿。\n- 面试验证问题：慢SQL如何优化；缓存如何保证一致性；热点Key如何治理；分布式锁如何正确释放。\n- 评分标准：60-70会基础使用；71-85能解决常见性能和一致性问题；86-100能治理高并发数据链路。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "分布式架构能力",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency_model.md",
+      "content": "岗位：Java开发工程师\n能力维度：分布式架构能力\n- 能力描述：理解服务治理、一致性、消息队列、容错和容量设计。\n- 评价指标：理解CAP；掌握幂等与重试；能够设计降级；具备故障模型意识。\n- 面试验证问题：重复消费如何处理；服务雪崩如何避免；最终一致性如何实现；容量如何评估。\n- 评分标准：60-70理解基本概念；71-85能设计常见分布式方案；86-100能在复杂故障约束下完成架构权衡。"
+    },
+    {
+      "job_key": "java_engineer",
+      "job": "Java开发工程师",
+      "ability": "工程交付与问题解决能力",
+      "source": "knowledge_base\\source_documents\\java_engineer\\competency_model.md",
+      "content": "岗位：Java开发工程师\n能力维度：工程交付与问题解决能力\n- 能力描述：具备测试、部署、可观测性、线上排障与复盘能力。\n- 评价指标：测试完整；部署可回滚；日志指标有效；排障过程有证据；结果有量化。\n- 面试验证问题：线上故障如何定位；灰度与回滚如何设计；哪些指标用于告警；如何复盘。\n- 评分标准：60-70能完成基本交付；71-85具备稳定发布和独立排障能力；86-100能建设质量与稳定性体系。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "岗位介绍",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency.md",
+      "content": "岗位：产品经理\n能力维度：岗位介绍\n负责发现用户问题、定义产品方案、协调团队交付并通过数据验证价值，需要兼顾用户、业务、技术和组织协作。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "产品设计",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency.md",
+      "content": "岗位：产品经理\n能力维度：产品设计\n考察目标：需求拆解、流程设计、原型、优先级与产品判断。\n初级表现：能完成基础需求文档和原型。\n中级表现：能从目标出发拆解方案并处理边界场景。\n高级表现：能构建产品体系并做出长期取舍。\n追问方向：MVP、优先级、异常流程、方案取舍。\n优秀回答特征：目标清楚、逻辑闭环并说明不做什么。\n常见不足：堆功能而缺少问题定义。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "用户分析",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency.md",
+      "content": "岗位：产品经理\n能力维度：用户分析\n考察目标：用户画像、访谈、行为洞察和需求验证。\n初级表现：能执行调研并整理反馈。\n中级表现：能区分表层诉求与真实问题。\n高级表现：能建立持续洞察机制并发现新机会。\n追问方向：样本选择、访谈提纲、需求真伪、用户分层。\n优秀回答特征：结合定性与定量证据。\n常见不足：以个人感受代替用户证据。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "数据分析",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency.md",
+      "content": "岗位：产品经理\n能力维度：数据分析\n考察目标：指标体系、漏斗、留存、归因和A/B测试。\n初级表现：会查看基础业务数据。\n中级表现：能定义指标并定位漏斗问题。\n高级表现：能设计严谨实验并建立增长模型。\n追问方向：北极星指标、显著性、分群、指标异动。\n优秀回答特征：指标与业务目标一致，结论考虑偏差。\n常见不足：只看增长率，不看口径和基数。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "项目管理",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency.md",
+      "content": "岗位：产品经理\n能力维度：项目管理\n考察目标：排期、资源、风险、范围和交付质量。\n初级表现：能跟进任务与节点。\n中级表现：能识别依赖、管理变更并推动交付。\n高级表现：能协调复杂项目和多团队目标。\n追问方向：延期、需求变更、资源不足、上线风险。\n优秀回答特征：提前识别风险并准备备选方案。\n常见不足：只催进度，不解决阻塞。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "沟通协作",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency.md",
+      "content": "岗位：产品经理\n能力维度：沟通协作\n考察目标：表达、倾听、冲突处理与跨部门影响力。\n初级表现：能清晰同步信息。\n中级表现：能协调分歧并推动共识。\n高级表现：能在无直接权限时影响关键决策。\n追问方向：研发冲突、老板临时需求、客户投诉、复盘。\n优秀回答特征：理解各方目标，以事实和方案推动决策。\n常见不足：回避冲突或只强调职位权力。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "商业思维",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency.md",
+      "content": "岗位：产品经理\n能力维度：商业思维\n考察目标：市场、竞品、商业模式、成本收益和战略判断。\n初级表现：能完成竞品信息收集。\n中级表现：能分析市场结构和产品商业价值。\n高级表现：能结合组织能力制定可执行增长路径。\n追问方向：商业模式、定价、竞争壁垒、投入产出。\n优秀回答特征：区分事实与假设，并给出验证方案。\n常见不足：只描述竞品功能，不分析竞争逻辑。\n评分标准：初级60-70，中级71-85，高级86-100。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "用户洞察能力",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency_model.md",
+      "content": "岗位：产品经理\n能力维度：用户洞察能力\n- 能力描述：通过研究与数据识别真实用户、场景、痛点和需求优先级。\n- 评价指标：用户分层合理；研究方法有效；需求有证据；能够区分诉求与问题。\n- 面试验证问题：如何验证需求真实性；如何选择访谈对象；用户反馈冲突如何处理。\n- 评分标准：60-70能收集整理需求；71-85能形成洞察并验证；86-100能建立持续洞察机制并影响战略。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "产品设计能力",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency_model.md",
+      "content": "岗位：产品经理\n能力维度：产品设计能力\n- 能力描述：能够完成问题定义、方案设计、原型、指标和体验闭环。\n- 评价指标：目标清晰；流程完整；方案有取舍；指标可验证；体验一致。\n- 面试验证问题：为何采用该流程；MVP如何裁剪；异常场景如何设计；成功指标是什么。\n- 评分标准：60-70能完成基础原型；71-85能独立设计完整方案；86-100能解决复杂系统和多角色协同问题。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "数据分析与决策能力",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency_model.md",
+      "content": "岗位：产品经理\n能力维度：数据分析与决策能力\n- 能力描述：利用指标、实验和业务分析判断问题并推动产品迭代。\n- 评价指标：指标体系合理；会漏斗分析；理解A/B测试；决策有数据支撑。\n- 面试验证问题：北极星指标如何制定；转化下降如何分析；实验如何避免偏差。\n- 评分标准：60-70能读取基础数据；71-85能独立分析并形成决策；86-100能建设指标体系和实验机制。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "项目管理与协同能力",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency_model.md",
+      "content": "岗位：产品经理\n能力维度：项目管理与协同能力\n- 能力描述：能够管理范围、节奏、风险和跨团队依赖，确保方案交付。\n- 评价指标：计划可执行；风险识别及时；沟通有闭环；冲突处理有效。\n- 面试验证问题：延期如何处理；研发有异议怎么办；资源不足如何取舍；如何推动复盘。\n- 评分标准：60-70能跟进常规项目；71-85能独立推进跨团队交付；86-100能治理复杂项目组合和关键风险。"
+    },
+    {
+      "job_key": "product_manager",
+      "job": "产品经理",
+      "ability": "商业与问题解决能力",
+      "source": "knowledge_base\\source_documents\\product_manager\\competency_model.md",
+      "content": "岗位：产品经理\n能力维度：商业与问题解决能力\n- 能力描述：理解商业目标，在用户价值、成本、风险和增长之间做出取舍。\n- 评价指标：理解商业模式；方案考虑成本收益；问题拆解清晰；结果可度量。\n- 面试验证问题：免费与付费如何设计；如何评估投入产出；失败产品如何复盘。\n- 评分标准：60-70理解基本业务；71-85能完成商业分析与方案权衡；86-100能形成产品战略并验证增长路径。"
+    }
+  ]
+}

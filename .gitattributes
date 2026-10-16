@@ -1,0 +1,30 @@
+# 统一换行符，避免 Windows 检出 CRLF、Docker/Linux 检出 LF 造成 diff 抖动
+* text=auto eol=lf
+
+# 明确按文本处理
+*.py    text eol=lf
+*.js    text eol=lf
+*.vue   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.ini   text eol=lf
+*.txt   text eol=lf
+*.conf  text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.svg   text eol=lf
+Dockerfile text eol=lf
+.env.example text eol=lf
+
+# 明确按二进制处理
+*.faiss binary
+*.pdf   binary
+*.docx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary

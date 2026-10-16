@@ -1,0 +1,45 @@
+# ---- 环境变量与密钥 ----
+.env
+.env.*
+!.env.example
+
+# ---- Python 虚拟环境 ----
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+env/
+ENV/
+
+# ---- Python 缓存与构建产物 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# ---- 前端 ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+
+# ---- 运行时生成的向量库（可由 backend/scripts/build_knowledge_base.py 重建）----
+knowledge_base/vector_store/*.faiss
+knowledge_base/vector_store/*.tmp
+
+# ---- 编辑器与系统文件 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- 本地临时目录 ----
+work/
