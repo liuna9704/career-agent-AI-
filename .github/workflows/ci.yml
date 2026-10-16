@@ -22,11 +22,16 @@ jobs:
           cache: pip
           cache-dependency-path: backend/requirements*.txt
 
+      - name: Show environment
+        run: |
+          python --version
+          pip --version
+
       - name: Install dependencies
         run: pip install -r requirements-dev.txt
 
       - name: Run tests
-        run: pytest
+        run: pytest -v
 
   frontend:
     name: Frontend build
@@ -37,11 +42,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 与 frontend/Dockerfile 保持一致的 Node 主版本。
+      # 注意：package-lock.json 由 npm 10（Node 22）生成，
+      # 不同 npm 大版本对可选原生依赖的 lock 写法不一致，
+      # 换版本后 npm ci 会报 "can only install packages when ...
+      # are in sync"，届时请用同一 Node 版本重新生成 lock。
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
           cache-dependency-path: frontend/package-lock.json
+
+      - name: Show environment
+        run: |
+          node --version
+          npm --version
 
       - name: Install dependencies
         run: npm ci
